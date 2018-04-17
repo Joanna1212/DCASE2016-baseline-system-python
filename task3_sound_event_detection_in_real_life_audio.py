@@ -79,7 +79,6 @@ def main(argv):
 
     # Get dataset container class
     dataset = eval(params['general']['development_dataset'])(data_path=params['path']['data'])
-
     # Fetch data over internet and setup the data
     # ==================================================
     if params['flow']['initialize']:
