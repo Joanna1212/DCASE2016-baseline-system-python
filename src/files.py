@@ -9,7 +9,6 @@ import cPickle as pickle
 import librosa
 import yaml
 import soundfile
-
 def load_audio(filename, mono=True, fs=44100):
     """Load audio file into numpy array
 
